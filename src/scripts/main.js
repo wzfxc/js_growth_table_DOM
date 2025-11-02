@@ -36,6 +36,8 @@ function updateButtons() {
   }
 }
 
+updateButtons();
+
 appendRowButton.addEventListener('click', (e) => {
   if (rowsCount < 10) {
     const row = table.rows[0].cloneNode(true);
